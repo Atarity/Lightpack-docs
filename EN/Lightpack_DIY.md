@@ -11,7 +11,7 @@ Let’s go at once to the scheme and the table of the components used (you can c
 <tr><td>Name</td><td>Nominal</td><td>Package</td></tr>
 <tr><td>IC1</td><td><a href="http://www.atmel.com/dyn/resources/prod_documents/doc7707.pdf">MCU Atmel AT90USB162</a></td><td>TQFP32</td></tr>
 <tr><td>IC2, IC3</td><td> LED driver <a href="http://www.siti.com.tw/product/spec/LED/DM631.pdf">SiTI DM631</a> or <a href="http://www.siti.com.tw/product/spec/LED/DM633.pdf">DM633</a></td><td>SOP24-1.27</td></tr>
-<tr><td>IC4</td><td> Suppressor <a href="http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001361.pdf">USB6B1</a></td><td> SO8</td></tr>
+<tr><td>IC4</td><td> Suppressor <a href="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00001361.pdf">USB6B1</a></td><td> SO8</td></tr>
 <tr><td>LED1-10</td><td> Chip-LED like ReFond? RF-W2SA50TS-A39</td><td>PLCC-6</td></tr>
 <tr><td>C1, C2</td><td>Capacitor 18 pF (ceramic)</td><td>1206</td></tr>
 <tr><td>С3, C5</td><td>4,7 uF, 16V (ceramic/tantalic)</td><td>1206</td></tr>
