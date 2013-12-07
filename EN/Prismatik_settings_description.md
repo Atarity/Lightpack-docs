@@ -45,7 +45,6 @@ The color in this mode is static. The Color button allows you to select the desi
 ###Change color with rate
 The backlight colors in this mode gradually transform. You can also adjust the speed change of color and brightness. Such devices are usually called Mood Lamps.
 
----
 ##Device Configurations
 This page contains settings that affect the device.
 
@@ -68,7 +67,6 @@ The setting of the capture areas number for the particular device.
 
 In *Prismatik* there are also some settings that are specific for other devices. For example, for *Adalight/Ardulight* a virtual COM-port to which the device is connected is available, the speed of sending data to it and the format of the sending for different firmware and SPI-controlled LED strips as well. For those who don’t have the device itself there is the debugging mode where the final, captured color is displayed on the small widgets in the window on a real time basis.
 
----
 ##Profiles
 Starting with version 4.1.0, the software supports profiles, which you can access and configure through the profile page. Each separate profile is written to an .ini file (configuration file) located inside the Prismatik `\Profiles` directory (e.g. `C:\Documents and Settings\Atarity\Prismatik\Profiles`).
 
@@ -80,7 +78,6 @@ In this section you can create, delete and reset existing profiles. A profile st
 ###Expert mode
 This includes an advanced GUI for those that are well familiar with the settings. We do not recommend enabling this feature if you do not plan to read additional documentation.
 
----
 ##Plugins
 All current plugins can be downloaded from our repository on GitHub and put to the Prismatik profile directory (see below). Each plugin has its own settings. Be sure to read the tab “Info” to understand the details of its work and setting.
 
@@ -97,7 +94,6 @@ each plugin should be placed there within separate directory. Some plugins from 
 ###Restart Plugins
 This button allows you to reset plugins and to install them again from their storage. If you debug or you think that not all plugins have been loaded, press this button.
 
----
 ##Experimental
 This page is used by the developers. All the contents are being profiled and you can change them at your own risk. We will not document all the functions of this tab as they are constantly in flux.
 
