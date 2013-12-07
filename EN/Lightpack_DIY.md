@@ -69,4 +69,4 @@ Please, when installing components pay your attention to the layout peculiaritie
 
 After the device is assembled, but not installed it is necessary to upload the firmware into it and check the efficiency. It can be done directly by USB without external programming units. The whole process is described in Flip section of Atmel site. Besides that, it’s useful to read about the capture program settings description. If the software refuses to connect to your device in Linux, it is most likely that you will have to modify the permissions of USB-device in the system settings or just put this file into `/etc/udev/rules.d/`.
 
-Please, send us the photos of your devices you made and foremost the samples of installation – we will add them to the special album. These are the samples of the old 4.3 revision from users.
+Please, send us the photos of your devices you made and foremost the samples of installation – we will add them to the special album.
