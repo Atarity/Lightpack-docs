@@ -11,7 +11,7 @@ _This page describes basic work principals of Lightpack._
     * [Master board](#master-board)
     * [LEDs](#leds)
   * [Limitations and further modifications](#limitations-and-further-modifications)
-    * [Windows 7 and 8 (Aero interface)](#windows-7-and-8-\(aero-interface\))
+    * [Windows 7 and 8 (Aero interface)](#windows-7-and-8-aero-interface)
     * [Performance](#performance)
     * [OpenGL games support](#opengl-games-support)
     * [DirectX10-11 games support](#directx10-11-games-support)
