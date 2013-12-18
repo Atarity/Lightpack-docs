@@ -2,15 +2,15 @@
 
 * [help](#help)
 * [exit](#exit)
- * [Авторизация подключения](#авторизация-подключения)
+ * [Авторизация подключения](#%D0%90%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)
 * [apikey](#apikey)
- * [GET-команды](#GET-команды)
+ * [GET-команды](#get-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B)
 * [getstatus](#getstatus)
 * [getstatusapi](#getstatusapi)
 * [getprofiles](#getprofiles)
 * [getprofile](#getprofile)
 * [getcountled](#getcountled)
-  * [SET-команды](#SET-команды)
+  * [SET-команды](#set-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B)
 * [lock](#lock)
 * [unlock](#unlock)
 * [setcolor](#setcolor)
@@ -24,7 +24,7 @@
 
 <pre>
 >> telnet 127.0.0.1 3636
-<< Lightpack API v1.3 (type "help" for more info)
+&lt;&lt; Lightpack API v1.3 (type "help" for more info)
 </pre>
 
 На практике для написания плагинов это не очень удобно из-за того, что постоянно приходится контролировать посылки в порт и ответы сервера. Поэтому мы создали специальный класс-обёртку для языка Python, которая называется pyLightpack. С его помощью вы изолируете себя от работы с сокетами и сможете сосредоточиться непосредственно на плагинах. Писать управляющие Лайтпаком скрипты с её помощью проще, чем настраивать конфиг для Quake.)
@@ -34,7 +34,7 @@
 ## help
 
 <pre>
->> help
+&lt;&lt; help
 </pre>
 
 Команда выводит самую актуальную справку по текущей версии API и доступна постоянно.
@@ -43,12 +43,12 @@
 
 <pre>
 >> exit
-<< Goodbye!
+&lt;&lt; Goodbye!
 </pre>
 
 Команда закрывает подключение к серверу и доступна постоянно.
 
-# Авторизация подключения
+## Авторизация подключения
 
 Начиная с версии 1.1 API поддерживает авторизацию внешних подключений. Это простейший путь защиты от несанкционированных подключений к устройству извне. Он предполагает посылку ключа авторизации, который известен лишь серверу. Вы всегда можете сгенерировать новый ключ авторизации, или вовсе отключить её в настройках программы захвата Лайтпака. Если авторизация включена, то единственный способ пройти её и получить доступ к остальным командам это команда
 
@@ -60,12 +60,12 @@
 
 <pre>
 >> apikey:{209e6248-b0d4-4757-a355-9593ee34f700}
-<< fail
+&lt;&lt; fail
 >> apikey:IDDQD
-<< ok
+&lt;&lt; ok
 </pre>
 
-# GET-команды
+## GET-команды
 
 Работают при любых настройках подключения, даже в том случае когда управление устройством не передано API
 
@@ -77,7 +77,7 @@
 
 <pre>
 >> getstatus
-<< status:on
+&lt;&lt; status:on
 </pre>
 
 ## getstatusapi
@@ -88,7 +88,7 @@
 
 <pre>
 >> getstatusapi
-<< statusapi:idle
+&lt;&lt; statusapi:idle
 </pre>
 
 ## getprofiles
@@ -96,7 +96,7 @@
 Возвращает полный список профилей настроек управляющей программы через ; . Профили хранятся в папке Profiles.
 <pre>
 >> getprofiles
-<< profiles:Lightpack;test07;New profile 1;
+&lt;&lt; profiles:Lightpack;test07;New profile 1;
 </pre>
 
 ## getprofile
@@ -104,7 +104,7 @@
 Возвращает имя текущего активного профиля.
 <pre>
 >> getprofile
-<< profile:test07
+&lt;&lt; profile:test07
 </pre>
 
 ## getcountleds
@@ -115,10 +115,10 @@
 
 <pre>
 >> getcountleds
-<< countleds:10
+&lt;&lt; countleds:10
 </pre>
 
-# SET-команды
+## SET-команды
 
 Могут быть выполнены в том случае, когда контроль над устройством передан API посредством команды lock
 
@@ -129,7 +129,7 @@
 
 <pre>
 >> lock
-<< lock:success
+&lt;&lt; lock:success
 </pre>
 
 ## unlock
@@ -140,7 +140,7 @@
 
 <pre>
 >> unlock
-<< unlock:not locked
+&lt;&lt; unlock:not locked
 </pre>
 
 ## setcolor
@@ -155,7 +155,7 @@
 
 <pre>
 >> setcolor:1-0,255,0;5-255,200,30;
-<< ok
+&lt;&lt; ok
 </pre>
 
 ## setgamma
@@ -168,7 +168,7 @@
 
 <pre>
 >> setgamma:2.15
-<< ok
+&lt;&lt; ok
 </pre>
 
 ## setsmooth
@@ -181,7 +181,7 @@
 
 <pre>
 >> setsmooth:100
-<< ok
+&lt;&lt; ok
 </pre>
 
 ## setbrightness
@@ -194,7 +194,7 @@
 
 <pre>
 >> setbrightness:80
-<< ok
+&lt;&lt; ok
 </pre>
 
 ## setprofile
@@ -207,7 +207,7 @@
 
 <pre>
 >> setprofile:My HD video
-<< ok
+&lt;&lt; ok
 </pre>
 
 ## setstatus
@@ -220,5 +220,5 @@
 
 <pre>
 >> setstatus:off
-<< ok
+&lt;&lt; ok
 </pre>
