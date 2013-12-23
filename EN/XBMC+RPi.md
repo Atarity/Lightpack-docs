@@ -2,20 +2,10 @@
 
 Your devices are 1 Raspberry Pi 1 LightPack
 
-#### Operations steps
+### Operations steps
 
-1. Install Raspbmc
-
-  Download and install Raspbmc – this must be the July or later release See http://www.raspbmc.com/download/ for instructions.
-
-2. Install and Configure Boblight
-3. Placing the lights on your TV
-
-The XBMC boblight plugin doesn’t work with this set up.
-
-    
 #### 1. Install Raspbmc
-
+ Download and install Raspbmc – this must be the July or later release See http://www.raspbmc.com/download/ for instructions.
 
 #### 2. Install and Configure Boblight
 
