@@ -1,4 +1,4 @@
-### Raspberry Pi, Raspbmc, boblight and a LightPack
+### Raspberry Pi, Raspbmc, boblight and a Lightpack
 
 
 ### Prerequisites: 
