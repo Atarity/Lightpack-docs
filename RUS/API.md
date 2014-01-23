@@ -205,6 +205,7 @@
 
 Включает заданный профиль настроек. Список профилей доступен по команде getprofiles (см. выше).
 
+
 <pre>
 >> setprofile:My HD video
 &lt;&lt; ok
@@ -222,3 +223,13 @@
 >> setstatus:off
 &lt;&lt; ok
 </pre>
+
+
+## getleds
+## getcolors
+## getfps
+## getscreensize
+## setleds
+## newprofile
+## deleteprofile
+## setmode
