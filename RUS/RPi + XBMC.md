@@ -15,7 +15,7 @@
 2. Включить *Boblight support*
 3. Подключиться к вашему *RPi* с помощью *WinSCP*, войти в систему как *root*, использовать IP-адрес, который вы указали выше.
 4. Скачать [файл конфигурации](https://skydrive.live.com/?cid=0f775ea9b6f34329&id=F775EA9B6F34329%211770) и поместить его в `/etc`
-4. Разместить светодиоды на телевизоре и настроить *Boblightd* согласно [этой инструкции](http://ajpawelski.wordpress.com/how-to-raspberry-pi-raspbmc-and-a-lightpack/#part4)
+5. Разместить светодиоды на телевизоре и настроить *Boblightd* согласно [этой инструкции](http://ajpawelski.wordpress.com/how-to-raspberry-pi-raspbmc-and-a-lightpack/#part4)
 
 ---
 
