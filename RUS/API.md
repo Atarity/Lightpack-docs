@@ -288,5 +288,21 @@
 &lt;&lt; ok
 </pre>
 
-
 ## setmode
+
+*Синтаксис: setmode:&lt;mode-name&gt;*
+
+*Возвращаемые значения: ok, error, busy или not locked*
+
+Устанавливает режим работы подсветки. ambilight -- режим захвата картинки, moodlamp -- режим простой подстветки.
+
+<pre>
+>> setmode:moodlamp
+&lt;&lt; ok
+</pre>
+
+## getmode
+
+*Возвращаемые значения: ambilight, moodlamp*
+
+Команда возвращает текущий режим работы подстветки. ambilight -- режим захвата картинки, moodlamp -- режим простой подстветки.
