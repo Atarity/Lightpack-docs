@@ -9,7 +9,7 @@
 * [getstatusapi](#getstatusapi)
 * [getprofiles](#getprofiles)
 * [getprofile](#getprofile)
-* [getcountled](#getcountled)
+* [getcountleds](#getcountleds)
   * [SET-команды](#set-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B)
 * [lock](#lock)
 * [unlock](#unlock)
@@ -226,6 +226,15 @@
 
 
 ## getleds
+
+Возвращает настройки зон захвата в формате N-X,Y,W,H; . Где N -- номер области захвата. X,Y -- координаты левого верхнего угла области. W,H -- ширина и высота области в пикселях.
+
+<pre>
+>> getleds
+&lt;&lt; leds:0-1157,972,637,117;1-1827,568,93,469;2-977,0,430,95;3-1818,93,102,462;4-1413,0,496,92;5-523,0,461,100;6-0,0,530,94;7-0,95,94,449;8-0,557,89,484;9-143,977,671,103;
+</pre>
+
+
 ## getcolors
 ## getfps
 ## getscreensize
