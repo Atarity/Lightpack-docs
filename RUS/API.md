@@ -264,7 +264,7 @@
 
 ## newprofile
 
-*Синтаксис: newprofile:&lt;name&gt;*
+*Синтаксис: newprofile:&lt;profile-name&gt;*
 
 *Возвращаемые значения: ok, error, busy или not locked*
 
@@ -276,4 +276,17 @@
 </pre>
 
 ## deleteprofile
+
+*Синтаксис: deleteprofile:&lt;profile-name&gt;*
+
+*Возвращаемые значения: ok, error, busy или not locked*
+
+Удаляет любой (указанный) профиль настроек Призматика, кроме текущего.
+
+<pre>
+>> deleteprofile:my-old-profile
+&lt;&lt; ok
+</pre>
+
+
 ## setmode
