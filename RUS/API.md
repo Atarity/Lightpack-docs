@@ -199,7 +199,7 @@
 
 ## setprofile
 
-*Синтаксис: setprofile:<name>*
+*Синтаксис: setprofile:&lt;name&gt;*
 
 *Возвращаемые значения: ok, error, busy или not locked*
 
@@ -263,5 +263,17 @@
 </pre>
 
 ## newprofile
+
+*Синтаксис: newprofile:&lt;name&gt;*
+
+*Возвращаемые значения: ok, error, busy или not locked*
+
+Сохраняет текущую конфигурацию устройства и настройки Призматика в профиль.
+
+<pre>
+>> newprofile:my-new-profile
+&lt;&lt; ok
+</pre>
+
 ## deleteprofile
 ## setmode
