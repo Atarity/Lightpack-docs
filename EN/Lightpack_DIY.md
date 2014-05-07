@@ -1,5 +1,5 @@
 #Lightpack DIY
-_Here is all information about Lightpack do-it-yourself. It is supposed that there is no need to explain what Heat Toner Transfer Method is, [how to use a soldering iron](http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf) and how to solder ICs in TQFP package. Besides that, we hope you have already viewed the [device operational principals](http://code.google.com/p/light-pack/wiki/Basics)._
+_Here is all information about Lightpack do-it-yourself. It is supposed that there is no need to explain what Heat Toner Transfer Method is, [how to use a soldering iron](http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf) and how to solder ICs in TQFP package. Besides that, we hope you have already viewed the [device operational principals](https://github.com/Atarity/Lightpack-docs/blob/master/EN/Lightpack_basics.md)._
 
 ---
 
@@ -47,7 +47,7 @@ When implementing the first pilot models we tried half-dozen of different throug
 
 LED-strips can be easily connected to Lightpack of the 6th revision that highly increase the number of LEDs (not capture areas). It can be useful if you need to install the device to the TV set with main diagonal. You can read about the strips and power supply characteristics for this in the [special post](http://pixelkit.ru/post/10930981074/5-5) in our blog (russian).
 
-You can download from [Downloads](http://lightpack.tv/downloads) section the schematics and the PCB layout in the format of free [Eagle CAD](http://cadsoft.de/).
+You can download from [our GitHub repo](https://github.com/Atarity/Lightpack/tree/master/Hardware) folder the schematics and the PCB layout in the format of free [Eagle CAD](http://cadsoft.de/).
 
 [![Lightpack layout](https://lh3.googleusercontent.com/-YhRyNDFVunw/T5aVT6AlpKI/AAAAAAAACww/VAcb6jWTaok/s700/Lightpack60L_layout.png)](https://picasaweb.google.com/lh/photo/UDA16-O6El6-0XIG6WqC6dMTjNZETYmyPJy0liipFm0?feat=directlink)
 

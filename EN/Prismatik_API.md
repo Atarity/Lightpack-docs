@@ -1,5 +1,11 @@
 # API
 
+_This document describes low-level API (documentation is valid for API ver. 1.3), which allows to control the device with the help of external software and plugins via sockets mechanism._
+
+--------------------
+
+_Table of content:_
+
 * [help](#help)
 * [exit](#exit)
  * [Connection authorization](#connection-authorization)
@@ -20,7 +26,7 @@
 * [setprofile](#setprofile)
 * [setstatus](#setstatus)
 
-This document describes low-level API (documentation is valid for API ver. 1.3), which allows to control the device with the help of external software and plugins via sockets mechanism. In pactice, you can connect to device from any OS through terminal and send commands to it in real-time. 
+In pactice, you can connect to device from any OS through terminal and send commands to it in real-time. 
 
 <pre>
 >> telnet 127.0.0.1 3636
