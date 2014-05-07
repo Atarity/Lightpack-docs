@@ -1,4 +1,4 @@
-# API
+# Prismatik API description
 
 _This document describes low-level API (documentation is valid for API ver. 1.3), which allows to control the device with the help of external software and plugins via sockets mechanism._
 

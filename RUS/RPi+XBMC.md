@@ -1,4 +1,4 @@
-### Raspberry Pi, Raspbmc, Boblight и Lightpack
+# Дружим Raspberry Pi, Raspbmc, Boblight и Lightpack
 
 ### Требуемые программы и утилиты:
 
