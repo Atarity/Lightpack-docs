@@ -1,5 +1,5 @@
 #Lightpack firmware update with Atmel FLIP utility
-_Step-by-step tutorial. You can check you Lightpack firmware version in "About" tab of Prismatik_
+_Step-by-step tutorial. You can check your Lightpack firmware version in "About" tab of Prismatik_
 
 ---
 
