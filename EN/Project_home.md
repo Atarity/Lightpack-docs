@@ -10,7 +10,7 @@ The software (Prismatik) analyses the image on your monitor and transfers its da
 
 <a href="http://www.youtube.com/watch?v=1UP7SmUqkxc"><img src="https://lh4.googleusercontent.com/-v3PDpYuOWd4/VZpTqfYTGiI/AAAAAAAA7zk/bzM8UMhS72Y/w854-h511-no/Screenshot_15.png" /></a>
 
-In the project Wiki you will find the operation principal description, the device assembly instructions (not up to date) and the software description. Besides that, PCB files in Eagle CAD format, device firmware and software for image capture are stored in downloads. You can find all operational details and news in our blog (in Russian). Also you can find more pics in Picasa album and more demos in YouTube playlist.
+In the project wiki you will find the [operation principal description](https://github.com/Atarity/Lightpack-docs/blob/master/EN/Lightpack_basics.md), the [device assembly instructions](https://github.com/Atarity/Lightpack-docs/blob/master/EN/Lightpack_DIY.md) and the [software description](https://github.com/Atarity/Lightpack-docs/blob/master/EN/Prismatik_settings_description.md). Besides that, [PCB files](https://github.com/Atarity/Lightpack/tree/master/Hardware) in Eagle CAD format, device firmware and software for image capture are stored in [downloads](https://github.com/woodenshark/Lightpack/releases).
 
 **Features:**
 
@@ -30,7 +30,7 @@ In the project Wiki you will find the operation principal description, the devic
 **Pecularities:**
 
 - Module structure for installation onto monitors and TVs with different diagonals
-- Crossplatform code (Windows, Linux and OS X)
+- Crossplatform code (Windows, Linux, OS X and even Android)
 - Efficient operation on the diagonals from 10 to 50 inches
 - Operating distance is from 10 to 35 cm (the distance between LEDs and the surface where the light is projected to)
 
