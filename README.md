@@ -5,6 +5,7 @@ _Carefully compiled for those who trying to dive deeper_
 
 Table of content:
 
+- [Project Home. Start here.](https://github.com/Atarity/Lightpack-docs/blob/master/EN/Project_home.md)
 - [Lightpack working basics](https://github.com/Atarity/Lightpack-docs/blob/master/EN/Lightpack_basics.md)
 - [Prismatik settings description](https://github.com/Atarity/Lightpack-docs/blob/master/EN/Prismatik_settings_description.md)
 - [Lightpack firmware update tutorial](https://github.com/Atarity/Lightpack-docs/blob/master/EN/Lightpack_firmware_update_with_FLIP_utility.md)
