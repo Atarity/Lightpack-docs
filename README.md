@@ -1,4 +1,4 @@
-#Lightpack documentation repo
+#Lightpack documentation repo (En/Ru)
 _Carefully compiled for those who trying to dive deeper_
 
 ----------------
