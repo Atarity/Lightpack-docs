@@ -1,4 +1,4 @@
-#Lightpack firmware update with Atmel FLIP utility
+# Lightpack firmware update with Atmel FLIP utility
 _Step-by-step tutorial. You can check your Lightpack firmware version in "About" tab of Prismatik_
 
 ---
@@ -8,7 +8,7 @@ To update firmware you will need following:
 * Original [FLIP utility] (http://www.atmel.com/tools/FLIP.aspx) for Atmel microcontrollers
 * latest version of Lightpack firmware (.hex file)
 
-##Firmware upload to device
+## Firmware upload to device
 For firmware update on Windows or Linux machine, do the following:
 
 1. Download [latest FLIP version] (http://www.atmel.com/tools/FLIP.aspx) from manufacturer website and install it 

@@ -59,7 +59,7 @@ const int kFirstLetterCapital;
 
 - Using #define in C++ code is not recommended. In case of a pressing need in name, all symbols must be upper case:
 <pre>
-#define ALL_CAPITAL_LETTERS
+# define ALL_CAPITAL_LETTERS
 </pre>
 
 - Gaps after if, for, while, and other key words:
@@ -86,7 +86,7 @@ else
 
 - In header files the control directive should be used in order to eliminate collisions: 
 <pre>
-#pragma once
+# pragma once
 </pre>
 
 - Name spaces are written down without gaps:

@@ -1,4 +1,4 @@
-#Lightpack DIY
+# Lightpack DIY
 _Here is all information about Lightpack do-it-yourself. It is supposed that there is no need to explain what Heat Toner Transfer Method is, [how to use a soldering iron](http://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf) and how to solder ICs in TQFP package. Besides that, we hope you have already viewed the [device operational principals](https://github.com/Atarity/Lightpack-docs/blob/master/EN/Lightpack_basics.md)._
 
 ---
