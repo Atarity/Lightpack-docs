@@ -15,7 +15,7 @@ _Table of content:_
   * [getstatusapi](#getstatusapi)
   * [getprofiles](#getprofiles)
   * [getprofile](#getprofile)
-  * [getcountled](#getcountled)
+  * [getcountleds](#getcountleds)
 * [SET-commands](#set-commands)
   * [lock](#lock)
   * [unlock](#unlock)
